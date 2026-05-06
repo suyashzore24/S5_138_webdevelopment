@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Learning Hub</title>
+
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 40px; background-color: #f4f4f9; }
+        .container { background: white; border: 2px solid #333; padding: 25px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h1 { color: green; }
+        iframe { border: 3px solid #28a745; border-radius: 8px; margin-top: 15px; width: 100%; height: 300px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Student Info -->
+        <h2>Suyash Zore</h2>
+        <p>Branch: CSE</p>
+        <p>Class: SY</p>
+        <p>Division: A</p>
+        <p>Subject: Web Development</p>
+
+        <hr>
+
+        <!-- Main Content -->
+        <h1>Football World</h1>
+        <p>Explore the most popular sport in the world:</p>
+
+        <ul>
+            <li><strong>Popular Clubs:</strong> FC Barcelona, Real Madrid, Manchester United</li>
+            <li><strong>Famous Players:</strong> Lionel Messi, Cristiano Ronaldo, Neymar Jr</li>
+        </ul>
+
+        <hr>
+
+        <!-- iframe Section -->
+        <h2>Embedded Football Info</h2>
+        <p>This frame displays football highlights:</p>
+
+        <iframe
+            title="Football Info"
+            srcdoc="
+                <style>
+                    body { font-family: sans-serif; background-color: #e9ecef; padding: 20px; }
+                    h3 { color: #28a745; margin-bottom: 10px; }
+                    ul { list-style: none; padding-left: 0; }
+                    li { margin: 5px 0; }
+                    .footer { margin-top: 20px; border-top: 1px solid #ccc; padding-top: 10px; font-weight: bold; color: #555; }
+                </style>
+
+                <h3>Football Highlights</h3>
+
+                <ul>
+                    <li>✔ UEFA Champions League</li>
+                    <li>✔ FIFA World Cup</li>
+                    <li>✔ Domestic Leagues</li>
+                </ul>
+
+                <div class='footer'>End of Football Guide</div>
+            ">
+        </iframe>
+
+    </div>
+
+</body>
+</html>
