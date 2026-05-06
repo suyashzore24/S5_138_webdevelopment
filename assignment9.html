@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Registration</title>
+<style>
+body{background:linear-gradient(to right,#4facfe,#00f2fe);font-family:Arial;}
+.container{width:50%;margin:auto;background:#fff;padding:20px;border-radius:10px;margin-top:30px;}
+h2{text-align:center;}
+fieldset{border:2px solid #4facfe;border-radius:8px;margin-bottom:15px;}
+legend{font-weight:bold;color:#4facfe;}
+label{display:inline-block;width:150px;}
+input,select,textarea{margin:5px;padding:5px;}
+.buttons{text-align:center;}
+input[type=submit]{background:green;color:#fff;padding:8px;border:none;border-radius:5px;}
+input[type=reset]{background:red;color:#fff;padding:8px;border:none;border-radius:5px;}
+</style>
+</head>
+
+<body>
+<div class="container">
+<h2>Employee Registration Form</h2>
+
+<form>
+
+<fieldset>
+<legend>Personal Information</legend>
+
+<label>First Name:</label>
+<input type="text" required><br>
+
+<label>Last Name:</label>
+<input type="text" required><br>
+
+<label>Email:</label>
+<input type="email" required><br>
+
+<label>Phone:</label>
+<input type="tel" required><br>
+
+<label>Gender:</label>
+<input type="radio" name="g">Male
+<input type="radio" name="g">Female
+<input type="radio" name="g">Other<br>
+
+<label>Date of Birth:</label>
+<input type="date" required><br>
+
+<label>Address:</label>
+<textarea rows="3"></textarea>
+
+</fieldset>
+
+<fieldset>
+<legend>Professional Information</legend>
+
+<label>Department:</label>
+<select>
+<option>IT</option>
+<option>HR</option>
+<option>Finance</option>
+</select><br>
+
+<label>Job Role:</label>
+<input type="text"><br>
+
+<label>Experience:</label>
+<input type="number"><br>
+
+<label>Skills:</label>
+<input type="checkbox">Java
+<input type="checkbox">Python
+<input type="checkbox">Web Dev<br>
+
+<label>LinkedIn:</label>
+<input type="url"><br>
+
+</fieldset>
+
+<fieldset>
+<legend>Account Information</legend>
+
+<label>Employee ID:</label>
+<input type="text"><br>
+
+<label>Date of Joining:</label>
+<input type="date"><br>
+
+<label>Password:</label>
+<input type="password"><br>
+
+<label>Confirm Password:</label>
+<input type="password"><br>
+
+<label>Resume:</label>
+<input type="file"><br>
+
+</fieldset>
+
+<div class="buttons">
+<input type="submit" value="Register">
+<input type="reset" value="Reset">
+</div>
+
+</form>
+</div>
+</body>
+</html>
