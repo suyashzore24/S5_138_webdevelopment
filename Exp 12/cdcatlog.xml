@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="student.xsl" ?>
+
+<students>
+
+  <student>
+    <name>Akshay</name>
+    <course>Computer Science</course>
+    <college>DYP College</college>
+    <city>Pune</city>
+    <marks>89</marks>
+    <year>2025</year>
+  </student>
+
+  <student>
+    <name>Aryan</name>
+    <course>Artificial Intelligence</course>
+    <college>DYP College</college>
+    <city>Mumbai</city>
+    <marks>91</marks>
+    <year>2025</year>
+  </student>
+
+  <student>
+    <name>Vishwajeet</name>
+    <course>Information Technology</course>
+    <college>DYP College</college>
+    <city>Kolhapur</city>
+    <marks>87</marks>
+    <year>2025</year>
+  </student>
+
+  <student>
+    <name>Swayam</name>
+    <course>Data Science</course>
+    <college>DYP College</college>
+    <city>Nashik</city>
+    <marks>90</marks>
+    <year>2025</year>
+  </student>
+
+  <student>
+    <name>Vishuu</name>
+    <course>Cyber Security</course>
+    <college>DYP College</college>
+    <city>Satara</city>
+    <marks>85</marks>
+    <year>2025</year>
+  </student>
+
+  <student>
+    <name>Prathamesh</name>
+    <course>Computer Engineering</course>
+    <college>DYP College</college>
+    <city>Sangli</city>
+    <marks>88</marks>
+    <year>2025</year>
+  </student>
+
+</students>
